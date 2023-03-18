@@ -1,11 +1,16 @@
 import React from 'react'
 
-function Title(props) {
-  
-	const {title , desc} = props
-	return (
-	<div>{title} {desc}</div>
-  )
+
+
+const Title = ({field}) => {
+	return(
+		<div>
+			<h2>
+			I am {field.title}.
+			{field.description}
+		</h2>
+		</div>
+	)
 }
 
 export default Title

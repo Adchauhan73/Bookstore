@@ -18,13 +18,14 @@ export default class Home extends Component {
   render() {
 	return (
 	  <div>
-		<p>Hello {this.state.title}</p>
+		
+		<h1>Hello {this.state.title}</h1>
         <button
           type="button"
           onClick={() => this.changeTitle()}
-          class="btn btn-primary"
+          className="btn btn-primary"
         >
-          Subscibe
+          Subscribe
         </button>
 	  </div>
 	)

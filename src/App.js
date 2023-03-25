@@ -5,7 +5,9 @@
 // import Counter from './components/Counter'
 // import List from './components/List'
 // import Title from './components/Title'
-import LoginForm from './components/LoginForm'
+import FocusInput from './components/FocusInput'
+// import InputRef from './components/InputRef'
+// import LoginForm from './components/LoginForm'
 
 
 
@@ -24,7 +26,7 @@ function App() {
   // };
   return (
     <div>
-      <LoginForm />
+      {/* <LoginForm /> */}
       {/* {page === "Home" ? <Home/> : <About/>}
     <button onClick={handleChange}>Change Page</button> */}
       {/* <Title name="Title1"/>
@@ -38,6 +40,7 @@ function App() {
          {/* <Counter /> */}
          {/* <List /> */}
          {/* <Title title="Anil" description="Web Developer"/> */}
+         <FocusInput /> 
 
     </div>
   )

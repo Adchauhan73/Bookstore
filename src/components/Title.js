@@ -7,7 +7,7 @@ const  Title = (props) => {
     return (
     <div className='Container'>
         
-        <p className='primary'>I'm {title} and I'm a  {description}</p>
+        <p className='primary'>I'm {title} and I'm {description}</p>
 
 
       {/* <h2>This is id {field.id},This is title {field.title}, {field.description}</h2> */}
@@ -15,4 +15,4 @@ const  Title = (props) => {
   )
 }
 
-export default Title;
+export default React.memo(Title);
